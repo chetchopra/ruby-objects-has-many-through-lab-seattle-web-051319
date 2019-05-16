@@ -9,4 +9,8 @@ class Patient
     @@all << self
   end
   
+  
+  def self.all 
+    return @@all
+  end
 end
