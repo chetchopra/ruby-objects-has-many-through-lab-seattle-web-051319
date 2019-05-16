@@ -13,7 +13,7 @@ class Doctor
   
   def new_appointment(date, patient)
     appt = Appointment.new(date, patient, self)
-    return appy
+    return appt
   end
   
   def self.all
