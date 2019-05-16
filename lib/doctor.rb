@@ -17,6 +17,7 @@
     appt = Appointment.new(date, patient, self)
     @appointments << appt
     @patients << patient
+    binding.pry
     return appt
   end
   
