@@ -1,6 +1,4 @@
- require 'pry'
- 
- class Doctor 
+class Doctor 
   
   attr_accessor :name, :patients, :appointments 
   
