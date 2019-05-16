@@ -15,6 +15,7 @@ class Patient
     appt = Appointment.new(date, self, doctor)
     @appointments << appt
     @doctors << doctor
+    return appt
   end
   
   
